@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.SystemInterfaceController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="14.0" prefHeight="50.0" prefWidth="685.0" text="Employee payroll system">
+         <font>
+            <Font name="Calibri Light" size="53.0" />
+         </font>
+      </Label>
+      <Button fx:id="p1" layoutX="14.0" layoutY="126.0" mnemonicParsing="false" onAction="#action1" onMouseEntered="#active1" onMouseExited="#inactive1" prefHeight="162.0" prefWidth="202.0" text="Add employee" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="p2" layoutX="242.0" layoutY="126.0" mnemonicParsing="false" onAction="#action2" onMouseEntered="#active2" onMouseExited="#inactive2" prefHeight="162.0" prefWidth="201.0" text="Change employee's salary" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="p3" layoutX="469.0" layoutY="126.0" mnemonicParsing="false" onAction="#action3" onMouseEntered="#active3" onMouseExited="#inactive3" prefHeight="162.0" prefWidth="201.0" text="Deduce employee's taxes" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="p4" layoutX="14.0" layoutY="333.0" mnemonicParsing="false" onAction="#action4" onMouseEntered="#active4" onMouseExited="#inactive4" prefHeight="162.0" prefWidth="201.0" text="Give employee a deduction" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="p6" layoutX="469.0" layoutY="333.0" mnemonicParsing="false" onAction="#action6" onMouseEntered="#active6" onMouseExited="#inactive6" prefHeight="162.0" prefWidth="201.0" text="Display employee's paylip" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button fx:id="p5" layoutX="242.0" layoutY="333.0" mnemonicParsing="false" onAction="#action5" onMouseEntered="#active5" onMouseExited="#inactive5" prefHeight="162.0" prefWidth="201.0" text="Display employee's payroll" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
