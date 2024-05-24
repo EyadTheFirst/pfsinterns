@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="336.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Borrows.EditBorrow">
+   <children>
+      <Label layoutX="159.0" layoutY="14.0" text="Adding Issues">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="123.0" text="Library ID:">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="190.0" text="Issue:">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Id" layoutX="308.0" layoutY="123.0" prefHeight="40.0" prefWidth="236.0" />
+      <TextField fx:id="Issue" layoutX="308.0" layoutY="190.0" prefHeight="40.0" prefWidth="236.0" />
+      <Button layoutX="131.0" layoutY="273.0" mnemonicParsing="false" onAction="#done" text="Done">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="392.0" layoutY="273.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
